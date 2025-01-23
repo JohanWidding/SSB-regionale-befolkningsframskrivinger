@@ -1,0 +1,61 @@
+{
+  "query": [
+    {
+      "code": "Region",
+      "selection": {
+        "filter": "vs:FylkerFram2024",
+        "values": [
+          "31",
+          "32",
+          "03",
+          "34",
+          "33",
+          "39",
+          "40",
+          "42",
+          "11",
+          "46",
+          "15",
+          "50",
+          "18",
+          "55",
+          "56"
+        ]
+      }
+    },
+    {
+      "code": "Kjonn",
+      "selection": {
+        "filter": "item",
+        "values": [
+          "2",
+          "1"
+        ]
+      }
+    },
+    {
+      "code": "Alder",
+      "selection": {
+        "filter": "agg:Funksjonell1a",
+        "values": [
+          "F303",
+          "F304"
+        ]
+      }
+    },
+    {
+      "code": "ContentsCode",
+      "selection": {
+        "filter": "item",
+        "values": [
+          "Personer",
+          "Personer1",
+          "Personer2"
+        ]
+      }
+    }
+  ],
+  "response": {
+    "format": "json-stat2"
+  }
+}

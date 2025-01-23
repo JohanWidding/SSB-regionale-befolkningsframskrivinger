@@ -1,7 +1,6 @@
 import pandas as pd
 import requests
 import json
-
 from jsonstat2_handeler import JSONStat2Handler
 
 # Read the file and parse JSON into a dictionary
@@ -21,4 +20,4 @@ df = data.jsonstat_to_merged_dataframe(
 )
 
 # Save the DataFrame as an Excel file
-df.to_excel("output.xlsx", index=True)
+df.to_csv("output.csv", index=True)

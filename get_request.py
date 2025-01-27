@@ -20,4 +20,5 @@ df = data.jsonstat_to_merged_dataframe(
 )
 
 # Save the DataFrame as an Excel file
+df.to_excel("befolkningsfremskrivinger.xlsx", index=True)
 df.to_csv("output.csv", index=True)
